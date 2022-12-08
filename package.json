@@ -1,0 +1,18 @@
+{
+  "name": "covidphstatstwitterbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^16.0.0",
+    "node-cron": "^3.0.0",
+    "twitter-api-v2": "^1.10.0"
+  }
+}
